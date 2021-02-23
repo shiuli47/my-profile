@@ -1,0 +1,43 @@
+<!DOCTYPE HTML">
+<html>
+  <head>
+    <script>
+	
+	function checkmobno()
+    {	
+       mobnoexp = /^[6789][0-9]{9}$/;
+
+ /*
+ ^       #Match the beginning of the string
+(7|8|9)  #Match a 7, 8 or 9 digit
+\d       #Match a digit (0-9 and anything else that is a "digit")
+{9}      #Repeat the previous "\d" 9 times (9 digits)
+$        #Match the end of the string
+ */
+  
+   var mobno = document.getElementById("mobno").value;
+   alert(mobno);
+ 
+   if(mobnoexp.test(mobno))
+   {
+    
+    	
+       mobnoexp = /^[6789][0-9]{9}$/;
+
+
+}
+      
+
+   </script>
+   
+  </head>
+  <body>
+ 
+  <form>
+Enter your mobile:
+  <!-- onblur event is generated when the input form field loses the focus -->
+  <input type="text" id="mobno" onblur="checkmobno()">
+ 
+<input type="button" value="Click me!"  >
+  </form>
+  </body>

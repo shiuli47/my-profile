@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <script>
+                function f1() {
+                    alert("WELCOME");
+
+                }
+                 </script>
+        </body>
+        <form>
+            <input type="submit"onclick="f1()">
+        </form>
+    </head>
+</html>
