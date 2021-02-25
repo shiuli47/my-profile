@@ -83,6 +83,14 @@ nav ul li a {
     display: block;
     padding: 10px 30px;
 }    
-    
+nav ul li a:hover {
+    background-color: black;
+}
+/* for breaking news */
+.breaking-news {
+    padding: 10px;
+    background-color: indigo;
+    color: ivory;
+}    
     
 
