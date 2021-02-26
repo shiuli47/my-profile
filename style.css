@@ -92,5 +92,10 @@ nav ul li a:hover {
     background-color: indigo;
     color: ivory;
 }    
-    
+.breaking-news .update-left {
+    padding: 5px 0px;
+    text-align: center;
+    background-color: deeppink;
+
+}    
 
