@@ -167,8 +167,8 @@ nav ul li a:hover {
     font-weight: bold;
     text-shadow: 1px 1px 1px gray;
 }
-.side-news:nth-child(3) {
-    margin-top: 0px;
+.side-news {
+    
     margin-bottom: 5px;
 }
 .side-news-data {
