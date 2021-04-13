@@ -149,7 +149,7 @@ nav ul li a:hover {
 }
 .main-headline {
     position: relative;
-    margin-top: 18px;
+    margin-top: 17px;
     margin-bottom: 5px;
 }
 .main-headline .headline {
@@ -168,7 +168,7 @@ nav ul li a:hover {
     text-shadow: 1px 1px 1px gray;
 }
 .side-news {
-    
+    margin-top: 5px;
     margin-bottom: 5px;
 }
 .side-news-data {
@@ -231,6 +231,20 @@ nav ul li a:hover {
     list-style: square;
     padding-bottom: 10px;
 }
+
+    
+
+
+
+  
+
+
+
+
+
+
+ 
+
 
     
 
